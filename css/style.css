@@ -1,0 +1,14 @@
+img {
+    display: block;
+    max-width: 150px;
+    max-height: 150px;
+    margin: 0 auto 30px;
+}
+
+#list{
+    font:13px Arial;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+

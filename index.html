@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edwardo Store</title>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script>
+      $(document).ready(function() {
+        Transform(); 
+      });
+  </script>
+</head>
+
+<body>
+<div id="list">
+  <h1>WELCOME TO OUR SHOPPING WEBSITE</h1>
+</div>
+
+  <script>
+  function Transform() {
+      // Download XML data from the server side.
+      var xml = getXMLData("createXML.php");
+
+      // Get XSL template at the client side.
+      var xsl = getXMLData("makeuplist.xsl");
+
+      // Only for Mozilla based browsers.
+      xsltProcessor = new XSLTProcessor();
+      //import the XSL file 
+      xsltProcessor.importStylesheet(xsl);
+      //apply the XSL style sheet to the xml document
+      var result = xsltProcessor.transformToFragment(xml, document);
+
+      $("#list").append(result);
+    }
+
+  //return file from server/client side
+    function getXMLData(url){
+      return $.ajax({type: "GET",
+        url: url,
+        async: false}).responseXML;
+    }
+</script>
+
+</body>
+</html>

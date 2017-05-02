@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<makeuplist>
+	<list>
+	<name>NYX Wonder Stick [4 Types To Choose]</name>
+		<brand>NYX</brand>
+		<description>Amplify your look with our all-purpose Wonder Stick that has a creamy finish that conceals highlights and contours with ease.</description>
+		<price>RM53.00</price>
+		<img>img/wonderstick.png</img>
+		
+	</list>
+	<list>
+	<name>Cerro Qreen Metal Box Makeup Brush Set 7pcs </name>
+		<brand>CERRO QREEN</brand>
+		<description>7pcs [#Wizard of Oz]</description>
+		<price>RM39.90</price>
+		<img>img/brush.png</img>
+		
+	</list>
+	<list>
+	<name>[Online Exclusive] NYX Sweet Cheeks Blush Palette</name>
+		<brand>NYX</brand>
+		<description>Get swept away by our drop-dead gorgeous Sweet Cheeks Blush Palette.</description>
+		<price>RM100.00</price>
+		<img>img/palette.png</img>
+		
+	</list>
+	<list>
+	<name>NYX HD Eye Shadow Base</name>
+		<brand>NYX</brand>
+		<description>Prep your eyelids with this lightweight eye shadow primer that makes skin appear smoother more even toned and ensures lasting makeup application.</description>
+		<price>RM42.00</price>
+		<img>img/eyeshadow.png</img>
+		
+	</list>
+	<list>
+	<name>NYX Soft Matte Lip Cream [23 Types To Choose]</name>
+		<brand>NYX</brand>
+		<description>Their velvety smooth Soft Matte Lip Cream delivers a burst of creamy color and sets to a stunning matte finish.</description>
+		<price>RM33.00</price>
+		<img>img/lipcream.png</img>
+		
+	</list>
+	<list>
+	<name>Maybelline The Falsies Push Up Drama Mascara Waterproof</name>
+		<brand>MAYBELLINE</brand>
+		<description>Dramatic lift and volume for the Falsies® push-up effect Our first cup-shaped bristles scoop and lift lashes from root-to-tip Creamy, waterproof formula</description>
+		<price>RM35.90</price>
+		<img>img/mascara.png</img>
+		
+	</list>		
+	<list>
+		<name>NYX Makeup Setting Spray [2 Types To Choose]</name>
+		<brand>NYX</brand>
+		<description>Demand perfection! For that fresh makeup look that lasts</description>
+		<price>RM40.00</price>
+		<img>img/spray.png</img>
+	</list>
+	<list>
+	<name>April Skin Magic Snow Cushion Black 2.0 [3 Types To Choose]</name>
+		<brand>APRIL SKIN</brand>
+		<description>Infused with 45% water-based to provide moisturizing coverage. Long-lasting Magic Snow Cushion gives a skin smooth, flawless and velvety complexion.</description>
+		<price>RM89.00</price>
+		<img>img/snowcushion.png</img>
+		
+	</list>
+</makeuplist>
